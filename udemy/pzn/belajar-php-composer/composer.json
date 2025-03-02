@@ -1,0 +1,25 @@
+{
+  "name": "iyytechnology/belajar-php-composer",
+  "description": "Belajar PHP Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Iyytechnology\\BelajarPhpComposer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Yasir Noval",
+      "email": "yanval.deyy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "programmerzamannow/belajar-php-composer-hello": "1.0.0",
+    "monolog/monolog": "3.*.*"
+  },
+  "scripts": {
+    "jalankan-server": "php -S localhost:8080",
+    "hello": "echo 'hello World'"
+  }
+}

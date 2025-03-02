@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Programmerzamannow\\Test\\CounterTest::testCounter":8,"Programmerzamannow\\Test\\CounterTest::testOther":5},"times":{"Programmerzamannow\\Test\\CounterTest::testCounter":0.024,"Programmerzamannow\\Test\\CounterTest::testOther":0.007,"Programmerzamannow\\BelajarPhpUnitTest\\CounterTest::increment":0.007}}
