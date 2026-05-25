@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,phpstorm,codeigniter,vscode
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,phpstorm,codeigniter,vscode
+# Created by https://www.toptal.com/developers/gitignore/api/windows,codeigniter,phpstorm,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,codeigniter,phpstorm,visualstudiocode
 
 ### CodeIgniter ###
 */config/development
@@ -136,7 +136,24 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
 
-#!! ERROR: vscode is undefined. Use list command to see defined gitignore types !!#
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -164,4 +181,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,phpstorm,codeigniter,vscode
+# End of https://www.toptal.com/developers/gitignore/api/windows,codeigniter,phpstorm,visualstudiocode
